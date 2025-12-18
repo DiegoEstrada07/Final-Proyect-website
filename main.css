@@ -29,6 +29,14 @@ header{
     height: 40px;
 }
 
+.hamburger {
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+  transform: rotate(180deg);
+}
+
 #v-menu{
     display: none;
 }
@@ -138,6 +146,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+    align-content: center;
 }
 
 div.new{
@@ -190,7 +199,7 @@ div.new{
 
 #more-news a p::first-letter {
   color: var(--capcom-color);
-  font-size: 20px;
+  font-size: 1.6rem;
 }
 
 
@@ -210,7 +219,7 @@ div.new{
 
 .social-icons i {
   color: white;
-  font-size: 22px;
+  font-size: 1.89rem;
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
@@ -221,7 +230,6 @@ div.new{
 
 /* FOOTER CONTENT */
 .footer-content {
-  background: #f7f7f7;
   padding: 50px 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -231,7 +239,7 @@ div.new{
 }
 
 .footer-column h3 {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 18px;
   color: #222;
 }
@@ -246,7 +254,7 @@ div.new{
 
 .footer-column ul li a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #555;
 }
 
