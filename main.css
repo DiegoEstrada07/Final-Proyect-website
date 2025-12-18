@@ -139,73 +139,7 @@ h2{
     font-size: 2rem;
     margin-left: 4rem;
 }
-/*
-#news-div{
-    margin: 15px;
-    width: 315px;
-    padding: 16px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 24px;
-    align-content: center;
-}
 
-div.new{
-    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.new img{
-    width: 315px;
-}
-
-.new-text{
-    margin: 7px;
-}
-
-.new-text h3{
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.new-text a{
-    text-decoration: none;
-    color: rgb(74, 73, 73);
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
-    display: flex;
-
-}
-
-.nav-text a:hover{
-    transition: 0.5s;
-    transform: scale(2.2);
-    text-decoration: underline;
-}
-
-#more-news{
-    text-align: center;
-    text-decoration: none;
-    color: rgb(74, 73, 73);
-    border-bottom: 35px;
-    margin-bottom: 20px;
-}
-
-#more-news a{
-    text-decoration: none;
-    color: rgb(176, 0, 0);
-
-}
-
-#more-news a p::first-letter {
-  color: var(--capcom-color);
-  font-size: 1.6rem;
-}
-*/
-
-
-/* ===== Mobile (base) ===== */
 .news {
   max-width: 100%;
   margin: 40px auto;
@@ -307,7 +241,6 @@ div.new{
   align-items: center;
 }
 
-/* ===== Tablet ≥768px ===== */
 @media (min-width: 768px) {
   .news {
     max-width: 1100px;
@@ -334,9 +267,12 @@ div.new{
   .news-content p {
     font-size: 14px;
   }
+
+  .games img{
+    width: 13.62rem;
+    }
 }
 
-/* ===== Desktop ≥1200px ===== */
 @media (min-width: 1200px) {
   .news {
     max-width: 1300px;
@@ -357,6 +293,9 @@ div.new{
   .news-content h3 {
     font-size: 20px;
   }
+  .games img{
+    width: 13rem;
+    }
 }
 
 /* SOCIAL BAR */
