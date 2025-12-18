@@ -8,8 +8,17 @@
     <title>Capcom USA</title>
 </head>
 <body>
-    <header>
+    <header id="capcom-header">
         <img id="logo" src="images/capcom-logo.png" alt="capcom capcom-logo">
+        <div id="v-menu">
+            <nav>
+            <a href="./404.html">Capcom Global</a>
+            <a href="./404.html">News</a>
+            <a href="./404.html">Games</a>
+            <a href="./404.html">Company</a>
+            <a href="./contact.html">Contact us</a>
+            </nav>
+        </div>
         <div class="hamburger" id="hamburger">
             <img src="./images/hamburger.png" alt="">
         </div>
@@ -24,15 +33,9 @@
     <main>
         <div class="slider">
             <div class="slides">
-            <div class="slide">
-                <img src="images/slider/Resident_Evil_Requiem.jpg" alt="Slide 1">
-            </div>
-            <div class="slide">
-                <img src="images/slider/CFC2.jpg" alt="Slide 2">
-            </div>
-            <div class="slide">
-                <img src="images/slider/street-fighter.jpg" alt="Slide 3">
-            </div>
+                <img src="images/slider/Resident_Evil_Requiem.jpg" alt="Imagen 1">
+                <img src="images/slider/street-fighter.jpg" alt="Imagen 2">
+                <img src="images/slider/CFC2.jpg" alt="Imagen 3">
             </div>
         </div>
         <section id="game-section">
@@ -40,43 +43,43 @@
             <div id="games-gallery">
                 <div class="games">
                     <img  src="./images/section-g/pragmatra.png" alt="pragmatra">
-                    <a href="./404.html">Pragmatra</a>
+                    <a href="./404.html"><strong>Pragmatra</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/MHWilds.png" alt="monster-hunter-wild">
-                    <a href="./404.html">Monster Hunter Wilds</a>
+                    <a href="./404.html"><strong>Monster Hunter Wilds</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/monster-hunter.png" alt="pragmatra">
-                    <a href="./404.html">Monster Hunter Stories 3:<br>Twisted Reflection</a>
+                    <a href="./404.html"><strong>Monster Hunter Stories 3:<br>Twisted Reflection</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/re-requiem.png" alt="Resident_Evil_Requiem">
-                    <a href="./404.html">Resident Evil Requiem</a>
+                    <a href="./404.html"><strong>Resident Evil Requiem</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/sf6.png" alt="stf6">
-                    <a href="./404.html">Street Fighter 6 Years 1-2<br>Fighters Edition</a>
+                    <a href="./404.html"><strong>Street Fighter 6 Years 1-2<br>Fighters Edition</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/kunitsu.png" alt="kunitsu">
-                    <a href="./404.html">Kunitsu-Gami: Path of the <br> Goddes</a>
+                    <a href="./404.html"><strong>Kunitsu-Gami: Path of the <br> Goddes</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/onimusha-pack.png" alt="onimusha-pack">
-                    <a href="./404.html">Onimusha 1+2 Pack</a>
+                    <a href="./404.html"><strong>Onimusha 1+2 Pack</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/onimusha2.png" alt="onimusha2">
-                    <a href="./404.html">Onimusha 2:Samura´s <br>Destiny</a>
+                    <a href="./404.html"><strong>Onimusha 2:Samura´s <br>Destiny</strong></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/capcom-fc.png" alt="capcom-fc">
-                    <a href="./404.html">Capcom Fighting Collector <br> 1+2 Bundle</a>
+                    <a href="./404.html"><strong>Capcom Fighting Collector <br> 1+2 Bundle</b></a>
                 </div>
                 <div class="games">
                     <img  src="./images/section-g/capcom-fc2.png" alt="capcom-fc2">
-                    <a href="./404.html">Capcom Fighting Collector <br>2</a>
+                    <a href="./404.html"><strong>Capcom Fighting Collector <br>2</strong></a>
                 </div>
             </div>
         </section>
@@ -84,7 +87,9 @@
             <h2>Latest News</h2>
             <div id="news-div">
                 <div class="new">
-                    <img src="./images/news/apollo.jpg" alt="apollo-new">
+                    <picture>
+                        <img src="./images/news/apollo.jpg" alt="apollo-new">
+                    </picture>
                     <div class="new-text">
                         <h3>Take that! ¡Apollo Justice: Ace Attorney Trilogy is out!</h3>
                         <br>
@@ -94,7 +99,9 @@
                     </div>
                 </div>
                 <div class="new">
-                    <img src="./images/news/mhw-new.jpg" alt="monster-hunter-wild">
+                    <picture>
+                        <img src="./images/news/mhw-new.jpg" alt="monster-hunter-wild">
+                    </picture>
                     <div class="new-text">
                         <h3>Monster Hunter Wilds redefines hunting in 2025</h3>
                         <br>
@@ -104,7 +111,9 @@
                     </div>
                 </div>
                 <div class="new">
+                    <picture>
                     <img src="./images/news/exoprimal-new.jpg" alt="exoprimal colab">
+                    </picture>
                     <div class="new-text">
                         <h3>Exoprimal evolves with a new map, a new final mission, and a crossover with Street Fighter 6!</h3>
                         <br>
@@ -115,7 +124,7 @@
                 </div>
             </div>
             <div id="more-news">
-            <a href="./404.html">MORE NEWS</a>
+            <a href="./404.html"><p>More-news</p></a>
             </div>
         </section>
     </main>
