@@ -118,7 +118,8 @@ header{
 
 .games img{
     box-shadow:  0 4px 10px rgba(0, 0, 0, 0.3);
-    width: 250px;
+    width: 15.62rem;
+    height: auto;
 }
 
 .games a{
@@ -348,13 +349,14 @@ div.new{
 .contact-info h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: rgb(229, 229, 0);
+    color: var(--capcom-color);
 }
 
 .contact-info p {
     font-size: 15px;
     line-height: 1.6;
     opacity: 0.9;
+    color: var(--capcom-color);
 }
 
 /* RIGHT SIDE */
@@ -365,7 +367,7 @@ div.new{
 .contact-form h2 {
     font-size: 26px;
     margin-bottom: 25px;
-    color: #333;
+    color: white;
 }
 
 .form-group {
