@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="./main.css">
     <link rel="icon" href="./images/main/Capcom_logo_icon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capcom USA</title>
@@ -83,50 +84,91 @@
                 </div>
             </div>
         </section>
-        <section id="news">
-            <h2>Latest News</h2>
-            <div id="news-div">
-                <div class="new">
-                    <picture>
-                        <img src="./images/news/apollo.webp" alt="apollo-new">
-                    </picture>
-                    <div class="new-text">
-                        <h3>Take that! ¡Apollo Justice: Ace Attorney Trilogy is out!</h3>
-                        <br>
-                        <p>Justice is coming! Red vest: ready. Bracelet: ready. Steel vocal cords: READY!</p>
-                        <br>
-                        <a href="./404.html">READ MORE ></a>
-                    </div>
-                </div>
-                <div class="new">
-                    <picture>
-                        <img src="./images/news/mhw-new.webp" alt="monster-hunter-wild">
-                    </picture>
-                    <div class="new-text">
-                        <h3>Monster Hunter Wilds redefines hunting in 2025</h3>
-                        <br>
-                        <p>Introducing Monster Hunter Wilds, the next generation of the genre-defining series: Monster Hunter…</p>
-                        <br>
-                        <a href="./404.html">READ MORE ></a>
-                    </div>
-                </div>
-                <div class="new">
-                    <picture>
-                    <img src="./images/news/exoprimal-new.webp" alt="exoprimal colab">
-                    </picture>
-                    <div class="new-text">
-                        <h3>Exoprimal evolves with a new map, a new final mission, and a crossover with Street Fighter 6!</h3>
-                        <br>
-                        <p>It's time to take to the streets! The day has finally arrived, former fighters! The second part is now available…</p>
-                        <br>
-                        <a href="./404.html">READ MORE ></a>
-                    </div>
-                </div>
-            </div>
-            <div id="more-news">
-            <a href="./404.html"><p>More-news</p></a>
-            </div>
-        </section>
+        <section class="news">
+  <h2 class="news-title">Latest News</h2>
+
+  <div class="news-grid">
+
+    <!-- Card 1 -->
+    <article class="news-card">
+      <picture>
+        <!-- Desktop -->
+        <source 
+          srcset="./images/news/apollo.webp"
+          media="(min-width: 1200px)">
+        
+        <!-- Tablet -->
+        <source 
+          srcset="./images/news/apollo.webp"
+          media="(min-width: 768px)">
+        
+        <!-- Mobile (fallback) -->
+        <img 
+          src="./images/news/apollo.webp"
+          alt="Apollo Justice Ace Attorney"
+          loading="lazy">
+      </picture>
+
+      <div class="news-content">
+        <h3>TAKE THAT! ¡Apollo Justice: Ace Attorney Trilogy came out!</h3>
+        <p>
+          Justice is coming! Red vest: ready. Bracelet: ready.
+          Steel vocal cords: READY!
+        </p>
+        <a href="./404.html" class="read-more">READ MORE</a>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="news-card">
+      <picture>
+        <source srcset="./images/news/mhw-new.webp" media="(min-width: 1200px)">
+        <source srcset="./images/news/mhw-new.webp" media="(min-width: 768px)">
+        <img 
+          src="./images/news/mhw-new.webp"
+          alt="Monster Hunter Wilds"
+          loading="lazy">
+      </picture>
+
+      <div class="news-content">
+        <h3>Monster Hunter Wilds redefines hunting in 2025</h3>
+        <p>
+          Introducing Monster Hunter Wilds, the next generation of the genre-defining series...
+          This is the next generation of the series...
+        </p>
+        <a href="./404.html" class="read-more">READ MORE</a>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="news-card">
+      <picture>
+        <source srcset="./images/news/exoprimal-new.webp" media="(min-width: 1200px)">
+        <source srcset="./images/news/exoprimal-new.webp" media="(min-width: 768px)">
+        <img 
+          src="./images/news/exoprimal-new.webp"
+          alt="Exoprimal Street Fighter crossover"
+          loading="lazy">
+      </picture>
+
+      <div class="news-content">
+        <h3>
+          Exoprimal evolves with a new map, a new final mission,
+          and a crossover with Street Fighter 6!
+        </h3>
+        <p>
+          It's time to take to the streets! The day has finally arrived, former fighters...
+        </p>
+        <a href="#" class="read-more">READ MORE</a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="more-news">
+    <a href="#">MORE NEWS</a>
+  </div>
+</section>
         </div>
             <div class="faq-container">
                 <h2>Common Questions</h2>
@@ -162,14 +204,6 @@
     </main>
     <footer>
         <div class="social-bar">
-            <div class="social-icons">
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-dribbble"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-twitch"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-facebook-f"></i>
             </div>
         </div>
 
